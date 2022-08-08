@@ -1,0 +1,284 @@
+@media (max-width: 576px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  section.card-status {
+    display: none;
+  }
+
+  section.card-status-mobile {
+    display: block;
+    margin-bottom: -75px;
+  }
+
+  .card-info {
+    width: 150px;
+    height: 150px;
+  }
+
+  .group-card {
+    border: none;
+    transform: translateY(-85px);
+  }
+
+  h4.info-title {
+    z-index: 2;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .group-text {
+    z-index: 2;
+    padding-top: 42px;
+  }
+
+  .jumbotron {
+    background-image: url('/asset/img/bg-maxi-home-mobile.png');
+    width: 100%;
+    height: 585px;
+    background-size: cover;
+  }
+
+  h1.heading-jumbotron {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+  }
+
+  p.caption-jumbotron {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+  }
+
+  section.card-status {
+    padding: 0px;
+    margin: 0;
+  }
+
+  .content span {
+    display: block;
+  }
+
+  .isi-peluang {
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .head-text-peluang {
+    padding: 0px;
+  }
+
+  img.img-peluang {
+    margin-bottom: 20px;
+  }
+
+  .tab-label {
+    font-size: 12px;
+  }
+
+  .tab-switch:checked + .tab-label {
+    font-size: 12px;
+  }
+
+  .group-content {
+    margin: 0px;
+  }
+
+  .content-cara-kerja {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .content-cara-kerja p {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 15px 43px;
+  }
+
+  img.img-kerja {
+    margin: 15px 43px;
+    width: 292.63px;
+    height: 164.11px;
+  }
+
+  .button-kerja {
+    margin-left: 50px;
+  }
+
+  .content-wrapper {
+    height: 668px;
+    width: 100%;
+  }
+
+  .content-wrapper h1 {
+    padding: 0px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .content-wrapper h6 {
+    padding: 0px;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .content-wrapper p {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .content-wrapper span {
+    display: block;
+  }
+
+  iframe.iframe-home {
+    margin-left: 0pxs;
+    width: 327px;
+    height: 197px;
+  }
+
+  .iframe-home {
+    width: 100%;
+    height: 197px;
+  }
+
+  img.kegiatan-home {
+    width: 100%;
+    height: 225px;
+  }
+
+  .contact {
+    width: 100%;
+    height: 507px;
+  }
+
+  .button-contact {
+    bottom: 275px;
+  }
+
+  .contact .illustrasi {
+    width: 520px;
+    height: 290px;
+    right: 45px;
+  }
+
+  .switch-kerja {
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  h1.contact-home {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .contact h1 {
+    left: 0;
+    top: 0;
+    margin: 60px 30px;
+  }
+
+  a.footer-dropdown {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+    text-decoration: none;
+    color: white;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a.footer-dropdown:hover {
+    color: white;
+  }
+
+  .dropdown-menu {
+    background-color: #65b842;
+  }
+
+  .dropdown-item {
+    margin: 16px;
+  }
+
+  a.dropdown-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.005em;
+    color: #ffffff;
+  }
+
+  a.dropdown-item:hover {
+    color: white;
+    background-color: #65b842;
+  }
+
+  .accordion {
+    border: none;
+    --bs-accordion-bg: none;
+  }
+
+  .accordion-item {
+    border: none;
+  }
+
+  .accordion-button {
+    color: white;
+    background-color: #65b842;
+    border: none;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #65b842;
+    box-shadow: none;
+    border: none;
+  }
+
+  .accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+    z-index: 3;
+  }
+
+  .accordion h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
+  }
+
+  .accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+    transform: rotate(-90deg) !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg) !important;
+  }
+
+  span.footer-mobile {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .switch-kerja {
+    display: none;
+  }
+}

@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+* {
+  font-family: 'Work Sans';
+}
+
+/* Home */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.switch > span {
+  position: absolute;
+  top: 10px;
+  pointer-events: none;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  width: 50%;
+  text-align: center;
+}
+
+input.check-toggle-round-flat:checked ~ .off {
+  color: #353535;
+}
+
+input.check-toggle-round-flat:checked ~ .on {
+  color: #808080;
+}
+
+.switch > span.on {
+  left: 0;
+  padding-left: 3px;
+  margin-bottom: 10px;
+  color: #353535;
+}
+
+.switch > span.off {
+  right: 0;
+  padding-right: 1px;
+  color: #808080;
+}
+
+.check-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+
+.check-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.check-toggle-round-flat + label {
+  padding: 2px;
+  width: 88px;
+  height: 40px;
+  background-color: #ebedef;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+}
+
+input.check-toggle-round-flat + label:before,
+input.check-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: '';
+}
+
+input.check-toggle-round-flat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #ebedef;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+}
+
+input.check-toggle-round-flat + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 40px;
+  background-color: #fff;
+  border: #d1d1d1 solid 1px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+  border-radius: 48px;
+  -webkit-transition: margin 0.2s;
+  -moz-transition: margin 0.2s;
+  -o-transition: margin 0.2s;
+  transition: margin 0.2s;
+}
+
+
+
+input.check-toggle-round-flat:checked + label:after {
+  margin-left: 40px;
+}
+
+.page-header {
+  z-index: 10;
+}
+
+.jumbotron {
+  background-image: url('/wp-content/themes/website-maxxitani/asset/img/bg-maxi-home.png');
+  height: 105vh;
+  background-size: cover;
+}
+
+img.jumbotron {
+  height: 105vh;
+  background-size: cover;
+  z-index: 0;
+}
+
+.content {
+  position: absolute;
+  padding-top: 162px;
+}
+
+h1.heading-jumbotron {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+  width: 500px;
+}
+
+p.caption-jumbotron {
+  padding-top: 16px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  width: 400px;
+  color: white;
+}
+
+a.button-jumbotron {
+  padding: 16px 40px;
+  background-color: #f29f05;
+  width: 251px;
+  height: 51px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  border-radius: 40px;
+}
+
+section.card-status-mobile {
+  display: none;
+}
+
+.card-info {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  position: absolute;
+  background-color: #6cc049;
+  width: 190px;
+  height: 190px;
+  border-radius: 10px;
+  color: white;
+}
+
+h4.info-title {
+  z-index: 2;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.group-text {
+  z-index: 2;
+  padding-top: 54px;
+}
+
+p {
+  z-index: 2;
+}
+
+img.card-vector {
+  z-index: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.grou p.info-text {
+  z-index: 100;
+  padding: 33px 52px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.group-card {
+  border: none;
+  transform: translateY(-100px);
+}
+
+h3.peluang {
+  margin-top: 200px;
+}
+.peluang p{
+  width: 250px;
+}
+
+.switch-peluang {
+  display: flex;
+  margin-top: 32px;
+  width: 400px;
+  height: 48px;
+  background-color: #ebedef;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #808080;
+  padding-top: 50px;
+}
+
+img.img-peluang {
+  display: inline-block;
+  width: 80px;
+  height: 73px;
+}
+
+.group-content {
+  margin-top: 64px;
+}
+
+h5.head-peluang {
+  font-weight: 600;
+  font-size: 20px;
+  color: #488031;
+}
+
+.head-text-peluang {
+  padding-left: 32px;
+}
+
+.layanan {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.switch-kerja {
+  display: flex;
+  margin-top: 26px;
+  margin-bottom: 113px;
+  width: 1100px;
+  height: 48px;
+  background-color: #ebedef;
+  justify-content: space-around;
+  align-items: flex-end;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #808080;
+  padding-top: 50px;
+}
+
+img.img-kerja {
+  border-radius: 8px;
+  width: 518px;
+  height: 290px;
+}
+
+.button-kerja {
+  margin-top: 40px;
+  width: 256px;
+  height: 52px;
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 14px 40px;
+  border: #6cc049 solid 1px;
+  background-color: white;
+}
+
+iframe.iframe-home {
+  width: 500px;
+  height: 275px;
+}
+
+.content-wrapper {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  background-color: #6cc049;
+}
+
+.button-navigate {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 4px 4px 0px #50505040;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: #65b842;
+  border-radius: 50%;
+  top: calc(50% - 25px);
+  opacity: 0.8;
+  margin: 2%;
+}
+
+.about h1 {
+  margin-top: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56.3px;
+  margin-top: 164px;
+  margin-bottom: 38px;
+}
+
+.about h6 {
+  margin-left: 30px;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.about p {
+  margin-left: 30px;
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 441px;
+}
+
+h1.kegiatan {
+  padding-top: 23px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p.kegiatan {
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button-kegiatan {
+  width: 256px;
+  height: 51px;
+  border: #6cc049 solid 1px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #6cc049;
+  margin-top: 95px;
+}
+
+.ilustrasi {
+  border-top-right-radius: 120px;
+  border-top-left-radius: 120px;
+  margin-top: 146px;
+  height: 401px;
+  background-color: #6cc049;
+}
+
+.contact {
+  margin-top: 200px;
+  background-color: #65b842;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-size: cover;
+  position: relative;
+  height: 401px;
+}
+
+.contact h1 {
+  position: absolute;
+  margin-top: 82px;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  height: 118px;
+  left: 166px;
+  top: -7px;
+}
+
+.button-contact {
+  z-index: 20;
+  position: absolute;
+  bottom: 110px;
+  margin-left: 30px;
+}
+
+.button-contact a {
+  margin-left: 30px;
+  display: flex;
+}
+
+.button-contact-color {
+  color: #ffffff;
+  background: #f29f05;
+  font-weight: 500;
+  width: 261px;
+  height: 51px;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.button-contact-color:hover {
+  background-color: #ffffff;
+  font-weight: 500;
+  border: 0;
+  color: #f29f05;
+}
+
+.contact .button-contact-color-b {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+
+  left: 38px;
+  background: #ffffff;
+  font-weight: 500;
+  color: #f29f05;
+  width: 189px;
+  height: 51px;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+}
+
+.button-contact-color-b:hover {
+  background-color: #f29f05;
+  font-weight: 500;
+  border: 0;
+  color: #ffffff;
+}
+
+.contact .bg-cta {
+  width: 100%;
+  position: absolute;
+  bottom: 18px;
+}
+
+.contact .illustrasi {
+  z-index: 1;
+  position: absolute;
+  bottom: -35px;
+}
+
+img.kegiatan-home {
+  width: 716px;
+  height: 486px;
+  border-radius: 8px;
+  padding-top: 32px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* .carousel-control-prev{
+  background-color: #6CC049;
+}
+.carousel-control-next{
+  background-color: #6CC049;
+} */
+
+.carousel-control-prev-icon {
+  width: 56px;
+  height: 56px;
+  background-image: url('/asset/img/prev-home.png') !important;
+}
+
+.carousel-control-next-icon {
+  width: 56px;
+  height: 56px;
+  background-image: url('/asset/img/next-home.png') !important;
+}
+
+.carousel-indicators-home [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 5px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: #f5cb7d;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-item {
+  font-weight: 600;
+  font-size: 16px;
+  color: #808080;
+}
+
+/* End Home */
+
+/* Perusahaan */
+
+.jumbotron-perusahaan {
+  background-image: url('/wp-content/themes/website-maxxitani/asset/img/Perusahaan/perusahaan.png');
+  height: 105vh;
+  background-size: cover;
+}
+
+img.jumbotron-perusahaan {
+  height: 105vh;
+  background-size: cover;
+  z-index: 0;
+}
+
+.content-perushaan {
+  position: absolute;
+}
+
+h1.heading-jumbotron-perushaan {
+  font-size: 48px;
+  font-weight: 600;
+  color: white;
+}
+
+section.visi-misi {
+  margin-top: 83px;
+}
+
+h.visi-misi {
+  font-weight: 600;
+  font-style: 48px;
+}
+
+p.visi-misi {
+  font-weight: 400;
+  font-style: 24px;
+}
+
+img.visi-misi {
+  position: absolute;
+  z-index: 10;
+}
+
+img.particle {
+  height: 165px;
+  width: 165px;
+}
+
+section.prinsip {
+  margin-top: 125px;
+  background-color: #6cc049;
+  width: 100%;
+  height: 619px;
+  margin-bottom: 100px;
+}
+
+.wrapper {
+  width: 285px;
+  height: 347px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+img.prinsip {
+  width: 201px;
+  height: 130px;
+  margin-top: 29px;
+  /* position: absolute ; */
+}
+
+h4.prinsip {
+  font-weight: 700;
+  padding-top: 32px;
+  font-size: 24px;
+  color: #488031;
+}
+
+p.prinsip {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.text-team {
+  margin-top: 24px;
+}
+
+.proses {
+  margin-top: 100px;
+  width: 100%;
+  height: 737px;
+  background-color: #6cc049;
+  margin-bottom: 100px;
+}
+
+.contact-company {
+  margin-top: 300px;
+  background-color: #65b842;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-size: cover;
+  position: relative;
+  height: 401px;
+}
+
+/* End Perusahaan */
+
+/* Blog */
+
+.jumbotron-blog {
+  background-image: url('/wp-content/themes/website-maxxitani/asset/img/Blog/blog-detil-bg.png');
+
+  height: 105vh;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.inspirasi {
+  margin-top: 80px;
+  margin-bottom: 85rem;
+}
+
+.detail-content {
+  margin-bottom: 146px;
+}
+
+h5.group-text-blog {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+p.group-text-blog {
+  font-weight: 400;
+  font-size: 16px;
+  color: #808080;
+}
+
+a.text-headline-blog {
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+  color: #353535;
+}
+
+a.text-headline-blog:hover {
+  color: #65b842;
+  cursor: pointer;
+}
+
+a.group-text-blog {
+  text-decoration: none;
+  width: 267px;
+  height: 51px;
+  border-radius: 40px;
+  border: solid 1px #6cc049;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  color: #6cc049;
+}
+
+.wrapper-blog {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 50px auto;
+  position: relative;
+}
+
+.tabs-blog {
+  /* margin-top: -20px; */
+  background: #ebedef;
+  height: 48px;
+  width: 1100px;
+  border-radius: 40px;
+}
+
+.tabs-blog::before,
+.tabs-blog::after {
+  content: '';
+  display: table;
+}
+
+.tabs-blog::after {
+  clear: both;
+}
+
+.tab-blog {
+  float: left;
+}
+
+.tab-blog-switch {
+  display: none;
+}
+
+.tab-blog-label {
+  position: relative;
+  display: inline-block;
+  line-height: 2.75em;
+  font-weight: 700;
+  font-size: 16px;
+  height: 3em;
+  padding: 0 7em;
+  background: #ebedef;
+  color: #808080;
+  cursor: pointer;
+  top: 0;
+  transition: all 0.25s;
+  border-radius: 40px;
+}
+
+.tab-blog-label:hover {
+  /* top: -0.25rem; */
+  transition: top 0.25s;
+}
+
+.tab-blog-content {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  top: 7rem;
+  left: 0;
+  /* margin-top: 100px; */
+  /* padding: 5rem 2.5rem; */
+  background: white;
+  color: #353535;
+  opacity: 0;
+  transition: all 0.35s;
+}
+
+.tab-blog-switch:checked + .tab-blog-label {
+  background: white;
+  font-weight: 700;
+  font-size: 16px;
+  color: #65b842;
+  transition: all 0.35s;
+  z-index: 1;
+  top: -0.0625rem;
+  border-radius: 40px;
+  border: #65b842 solid 1px;
+}
+
+.tab-blog-switch:checked + label + .tab-blog-content {
+  z-index: 2;
+  opacity: 1;
+  /* transition: all 0.35s; */
+}

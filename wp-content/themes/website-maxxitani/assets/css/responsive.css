@@ -1,0 +1,789 @@
+@media (max-width: 960px) {
+  .text-support {
+    width: 210px;
+  }
+  .icon-pos {
+    display: flex;
+  }
+  .icon-support {
+    width: 60px;
+    height: 60px;
+  }
+  .support h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 46.3px;
+  }
+
+
+  .about-1 h1 {
+    margin-top: 48px;
+    margin-bottom: 38px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding: 0;
+  }
+  .about-1 iframe {
+    width: 600px;
+    margin-left: 100px;
+    border-radius: 5.896225929260254px;
+  }
+
+  .about-1 .kutip {
+    margin-top: 35px;
+    margin-bottom: -30px;
+    margin-left: 24px;
+    border-radius: 0px;
+  }
+  .about-1 h6 {
+    margin-left: 51px;
+    margin-top: 16px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .about-1 p {
+    margin-left: 51px;
+    margin-top: 34px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 690px;
+    border-radius: nullpx;
+  }
+  /* impact */
+  .impact h1 {
+    padding: 0;
+  }
+	.impact .card{
+		margin-left: -300px;
+	}
+  /* perk */
+  .perk h1{
+    padding: 0;
+  }
+  .perk {
+    height: 100%;
+  }
+	.perk .card{
+		margin-left: -300px;
+	}
+  
+  /* About Karir */
+  .about-karir {
+    height: 800px;
+  }
+  .about-karir h1 {
+    padding: 0;
+  }
+  .about-karir .kutip {
+    margin-top: 35px;
+    margin-bottom: -30px;
+    margin-left: 24px;
+    border-radius: 0px;
+  }
+  .about-karir h6 {
+    margin-left: 51px;
+    margin-top: 16px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .about-karir p {
+    margin-left: 51px;
+    margin-top: 34px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 690px;
+    border-radius: nullpx;
+  }
+
+  /* moment */
+  .moment h1{
+    padding: 0;
+  }
+
+  .moment .scroll-gallery{
+    overflow-x:scroll;
+  }
+  .moment-1 {
+    border-radius: 10px;
+    margin-left: 0;
+  }
+  .moment-2 {
+    border-radius: 10px;
+    margin-left: 150px;
+  }
+  .moment-3 {
+    border-radius: 10px;
+    margin-left: 200px;
+  }
+  .moment-4 {
+    border-radius: 10px;
+    margin-left: -40px;
+  }
+  .moment-5 {
+    border-radius: 10px;
+    margin-left: 80px;
+  }
+  .moment-6 {
+    border-radius: 10px;
+    margin-left: -40px;
+  }
+  .moment-7 {
+    border-radius: 10px;
+    margin-left: 190px;
+  }
+  .cell {
+    border-radius: 10px;
+    min-height: 100px;
+  }
+  .cell__big {
+    border-radius: 10px;
+    display: flex;
+    margin-left: 250px;
+  }
+  .contact-1 {
+    height: 720px;
+    border-radius: 30px 30px 0 0;
+  }
+  .contact-1 h1 {
+    position: absolute;
+    margin-top: 62px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    left: 24px;
+  }
+
+  .contact-1 .btn-contact-1 {
+    z-index: 1;
+    position: absolute;
+    top: 199px;
+    border-radius: 30px;
+    display: block;
+    margin-left: -30px;
+  }
+
+  .contact-1 .btn-contact-1-color {
+    color: #ffffff;
+    background: #f29f05;
+    font-weight: 500;
+    height: 48px;
+    width: 346px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+  }
+  .contact-1 .btn-contact-1-color:hover {
+    background-color: #ffffff;
+    font-weight: 500;
+    border: 0;
+    color: #f29f05;
+  }
+
+  .contact-1 .btn-contact-1-color-b {
+    background: #ffffff;
+    font-weight: 500;
+    color: #f29f05;
+    height: 48px;
+    width: 346px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+  }
+  .contact-1 .btn-contact-1-color-b:hover {
+    background-color: #f29f05;
+    font-weight: 500;
+    border: 0;
+    color: #ffffff;
+  }
+  .contact-1 .bg-cta {
+    position: absolute;
+    bottom: 12px;
+  }
+  .contact-1 .illustrasi {
+    z-index: 1;
+    position: absolute;
+    right: 21px;
+    background-size: cover;
+  }
+  .contact-1 .illustrasi-size {
+    height: 402px;
+    width: 255px;
+  }
+  
+  .available-pos p {
+  	padding: 0;
+	}
+}
+@media (max-width: 768px) {
+  body {
+    font-family: 'Work Sans';
+  }
+
+  .jumbotron-mitra {
+    height: 595px;
+    background-position: center;
+  }
+  .bg-company {
+    height: 595px;
+    background-position: center;
+  }
+  .jumbotron-mitra h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 153px;
+    width: 350px;
+  }
+  .jumbotron-mitra p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 250px;
+  }
+  .jumbotron-mitra .btn-jum-mitra{
+    width: 220px;
+    font-size: 14px;
+  }
+  .jumbotron-petani {
+    height: 595px;
+    background-position: center;
+  }
+  .jumbotron-petani h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 153px;
+    width: 370px;
+  }
+  .jumbotron-petani p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 250px;
+  }
+  .jumbotron-petani .btn-jum-petani{
+    width: 220px;
+    font-size: 14px;
+  }
+  .jumbotron-karir {
+    height: 595px;
+    background-position: center;
+  }
+  .jumbotron-karir h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    top: 153px;
+    width: 300px;
+  }
+  .jumbotron-karir .btn-jum-karir{
+    width: 220px;
+    font-size: 14px;
+  }
+
+
+  
+  /* Moment */
+  .moment .scroll-gallery{
+    overflow-x:scroll;
+  }
+  .moment-1 {
+    height: 104.5270004272461px;
+    width: 167.8660888671875px;
+    border-radius: 10px;
+    margin-left: 0;
+  }
+  .moment-2 {
+    border-radius: 10px;
+    height: 104.7213897705078px;
+    width: 124.62850952148438px;
+    margin-left: 60px;
+  }
+  .moment-3 {
+    border-radius: 10px;
+    height: 104.7213897705078px;
+    width: 167.8660888671875px;
+    margin-left: 110px;
+    
+  }
+  .moment-4 {
+    border-radius: 10px;
+    height: 104.7213897705078px;
+    width: 124.62850952148438px;
+    margin-left: -15px;
+    margin-top: -20px;
+  }
+  .moment-5 {
+    border-radius: 10px;
+    height: 104.7213897705078px;
+    width: 197.62850952148438px;
+    margin-left: 65px;
+    margin-top: -20px;
+  }
+  .moment-6 {
+    border-radius: 10px;
+    height: 104.7213897705078px;
+    width: 197.62850952148438px;
+    margin-left: -15px;
+    margin-top: -30px;
+  }
+  .moment-7 {
+    border-radius: 10px;
+    height: 104.7213897705078px;
+    width: 124.62850952148438px;
+    margin-left: 60px;
+    margin-top: -30px;
+  }
+  .cell {
+    border-radius: 10px;
+    min-height: 100px;
+  }
+  .cell__big {
+    border-radius: 10px;
+    display: flex;
+    height: 230px;
+    width: 130px;
+    margin-left: 110px;
+    margin-top: -20px;
+  }
+
+  .moment h1 {
+    color: #488031;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+  }
+  /* perk */
+  .perk {
+    height: 500px;
+  }
+  .perk h1 {
+    top: -15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+  }
+
+  .perk .gambar1 {
+    height: 220px;
+    width: 260px;
+    border-radius: 10px;
+  }
+  .perk .gambar2 {
+    height: 220px;
+    width: 260px;
+    border-radius: 10px;
+  }
+  .perk .gambar3 {
+    height: 220px;
+    width: 260px;
+    border-radius: 10px;
+  }
+  .perk .gambar4 {
+    height: 220px;
+    width: 260px;
+    border-radius: 10px;
+  }
+  /* impact */
+  .text-impact {
+    top: 50px;
+  }
+  .perk .card {
+    top: -17px;
+    width: 300.22px;
+    height: 385px;
+    border-radius: 12px;
+    left: 34px;
+	margin: 0;
+  }
+
+  /* support-mobile */
+  .support h5 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 150px;
+  }
+  .text-support {
+    width: 160px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 130px;
+  }
+  .icon-pos {
+    display: inline;
+    margin-top: 20px;
+  }
+  .support {
+    margin-left: -20px;
+  }
+  .icon-support {
+    height: 30.5px;
+    width: 30.513206481933594px;
+    margin-left: 58px;
+    border-radius: 0px;
+  }
+  .support h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    margin-left: 58px;
+    width: 257px;
+  }
+
+  /* visi-misi mobile*/
+  .visi-misi .text-visi {
+    order: 2;
+    margin-top: 1rem;
+  }
+  .visi-misi .display-4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .visi-misi p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+  }
+  .visi-misi .visi {
+    order: 1;
+    position: relative;
+    border-radius: 8px;
+    left: 35px;
+    height: 160.1036376953125px;
+    width: 285.4922790527344px;
+    left: 35px;
+    top: 71.316162109375px;
+    border-radius: 8px;
+  }
+  .visi-misi .bg-visi1 {
+    margin-top: -10.6rem;
+    margin-left: 16rem;
+    height: 77.20204162597656px;
+    width: 77.20252990722656px;
+    top: 0px;
+    border-radius: 0px;
+  }
+  .visi-misi .bg-visi2 {
+    margin-top: -15px;
+    margin-left: 20px;
+    height: 77.20204162597656px;
+    width: 77.20252990722656px;
+    top: 0px;
+    border-radius: 0px;
+  }
+
+  .visi-misi .text-misi {
+    margin-left: -8px;
+    margin-top: 3rem;
+    margin-bottom: 30px;
+  }
+  .visi-misi ul {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .visi-misi .misi {
+    position: relative;
+    border-radius: 8px;
+    margin-top: 5rem;
+  }
+  .visi-misi .bg-misi1 {
+    margin-left: 16.3rem;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    height: 77.20204162597656px;
+    width: 77.20252990722656px;
+    border-radius: 0px;
+  }
+  .visi-misi .bg-misi2 {
+    margin-top: -19.4rem;
+    margin-left: 20px;
+    height: 77.20204162597656px;
+    width: 77.20252990722656px;
+    border-radius: 0px;
+  }
+
+  /* impact mobile */
+  .impact {
+    height: 468px;
+    background-image: url(../images/bg-impact-mobile.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  .impact h1 {
+    top: -15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0;
+  }
+  .text-impact {
+    top: 50px;
+  }
+  .impact .card {
+    top: -27px;
+    width: 249.22px;
+    height: 305px;
+    border-radius: 12px;
+    left: 24px;
+	  margin: 0;
+  }
+  .impact .card img {
+    height: 180px;
+  }
+  
+  .about-karir .carousel-nav {
+  display: none;
+  }
+	.about-1 .carousel-nav {
+  display: none;
+  }
+	.about-1 .carousel-control-prev{
+			margin-top: 0;
+	}
+	.about-1 .carousel-control-next{
+		padding-left: 0;
+	}
+	.about-1{
+		height: 100%;
+	}
+
+  .about-1 h1 {
+    margin-top: 48px;
+    margin-bottom: 38px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding: 0;
+  }
+  .about-1 iframe {
+    height: 197px;
+    width: 327px;
+    border-radius: 5.896225929260254px;
+	margin-left: 30px;
+  }
+
+  .about-1 .kutip {
+    margin-top: 65px;
+    margin-bottom: -30px;
+    margin-left: 0;
+    height: 29.230777740478516px;
+    width: 30.82105255126953px;
+    top: 1.11083984375px;
+    border-radius: 0px;
+  }
+  .about-1 h6 {
+    margin-left: 37px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .about-1 p {
+    margin-left: 37px;
+    margin-top: 14px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 290px;
+    border-radius: nullpx;
+  }
+  /* About karir */
+  .about-karir {
+    height: 750px;
+  }
+  .about-karir h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding: 0;
+  }
+  .about-karir iframe {
+    height: 197px;
+    width: 327px;
+    margin-left: 30px;
+    border-radius: 5.896225929260254px;
+  }
+
+  .about-karir .kutip {
+    margin-top: 65px;
+    margin-bottom: -30px;
+    margin-left: 24px;
+    height: 29.230777740478516px;
+    width: 30.82105255126953px;
+    left: 0.421875px;
+    top: 1.11083984375px;
+    border-radius: 0px;
+  }
+  .about-karir h6 {
+    margin-left: 51px;
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .about-karir p {
+    margin-left: 51px;
+    margin-top: 14px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 290px;
+    border-radius: nullpx;
+  }
+
+  /* contact */
+  .contact-1 {
+    height: 720px;
+    border-radius: 30px 30px 0 0;
+  }
+  .contact-1 h1 {
+    position: absolute;
+    margin-top: 62px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    left: 24px;
+	  width: 400px;
+  }
+
+  .contact-1.btn-contact-1 {
+    z-index: 1;
+    position: absolute;
+    top: 199px;
+    padding-right: 20px;
+    border-radius: 30px;
+    padding: 16px;
+    display: inline;
+  }
+
+  .contact-1.button-contact-1-color {
+    color: #ffffff;
+    background: #f29f05;
+    font-weight: 500;
+    height: 48px;
+    width: 326px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+  }
+  .contact-1.button-contact-1-color:hover {
+    background-color: #ffffff;
+    font-weight: 500;
+    border: 0;
+    color: #f29f05;
+  }
+
+  .contact-1.button-contact-1-color-b {
+    background: #ffffff;
+    font-weight: 500;
+    color: #f29f05;
+    height: 48px;
+    width: 326px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.15);
+  }
+  .contact-1.button-contact-1-color-b:hover {
+    background-color: #f29f05;
+    font-weight: 500;
+    border: 0;
+    color: #ffffff;
+  }
+  .contact-1 .bg-cta-mobile {
+    position: absolute;
+    background-size: cover;
+    bottom: 12px;
+    display: block;
+  }
+  .contact-1 .bg-cta-desktop{
+    display: none;
+  }
+  .contact-1 .illustrasi {
+    z-index: 1;
+    position: absolute;
+    top: 375px;
+    right: 51px;
+  }
+  .contact-1 .illustrasi-size {
+    height: 349.3670654296875px;
+    width: 250.0006561279297px;
+  }
+  .contact-1 .mascout {
+    z-index: 1;
+    position: absolute;
+    bottom: -30px;
+    right: 51px;
+  }
+  .contact-1 .mascout-size {
+    height: 349.3670654296875px;
+    width: 300.0006561279297px;
+  }
+  .available-pos p {
+  	padding: 0;
+	}
+	.available-pos{
+	background-color: #ffffff;
+}
+
+/* Hubungi Kami */
+
+}
